@@ -1,0 +1,21 @@
+ 
+.contact-edit-header a:not(:last-child) {
+  margin: 0 10px 0 0; 
+}
+.form-field{
+  margin-bottom: 5px;
+}
+.contact-edit .form-actions-container {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 0 0a 0; 
+}
+
+.contact-edit .form-actions-container button {
+  cursor: pointer; 
+}
+
+.contact-edit-body{
+  display: flex;
+  justify-content: space-around;
+}

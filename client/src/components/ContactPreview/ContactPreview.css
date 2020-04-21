@@ -1,0 +1,40 @@
+.contact-preview {
+  display: inline-block;
+  padding: 0 25px;
+  height: 50px;
+  width: 100%;
+  font-size: 17px;
+  line-height: 50px;
+  border-radius: 25px;
+  background-color: #f1f1f1; 
+  box-sizing: border-box;
+}
+  
+.contact-preview img {
+  float: left;
+  margin: 0 10px 0 -25px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%; 
+}
+
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}

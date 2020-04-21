@@ -1,0 +1,28 @@
+.contact-details {
+  position: relative;
+}
+
+.contact-details-header {
+  display: flex;
+  justify-content: space-between;
+  height: 40px; 
+}
+.contact-details-header a:not(:last-child) {
+  margin: 0 10px 0 0; 
+}
+
+.contact-details .contact-details-row {
+  margin: 10px 0 0 0; 
+}
+ 
+.contact-details-body{
+  display:flex;
+}
+.contact-details .contact-details-message {
+  width: 100%;
+  position: absolute;
+  top: 1.1em;
+  color: #008c07;
+  display: flex;
+  justify-content: center;
+}
